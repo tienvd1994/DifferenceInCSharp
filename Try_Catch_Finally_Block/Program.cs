@@ -8,6 +8,8 @@ namespace Try_Catch_Finally_Block
 {
     class Program
     {
+        
+
         static void Main(string[] args)
         {
             /*
@@ -15,8 +17,8 @@ namespace Try_Catch_Finally_Block
              */
             try
             {
-                //return;
-                throw new Exception();
+                return;
+                //throw new Exception();
             }
 
             /*
@@ -36,11 +38,11 @@ namespace Try_Catch_Finally_Block
              * finally sẽ chạy sau khi đã chạy qua try, catch block. Vì vậy việc đóng kết nối SQL
              * và giải phóng các trình xử lý tệp có thể được xử lý trong finally block.
              * 
-             * Finally block vẫn thực thi khi có return ở trong try hoặc catch block
+             * Finally block vẫn thực thi khi có return hoặc break ở trong try hoặc catch block
              */
             finally
             {
-
+                //return;
             }
         }
     }

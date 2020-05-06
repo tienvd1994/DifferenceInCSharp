@@ -15,11 +15,11 @@ namespace Ref_Versus_Out
     {
         static void Main(string[] args)
         {
-            const int test = 10;
-            int period = 10; // Used as out parameter.
+            int test;
+            int period; // Used as out parameter.
 
             TestOut(20, out period);
-            //TestRef(20, ref period);
+            TestRef(20, ref test);
             //TestNormal(20, period);
 
             Console.WriteLine(period);

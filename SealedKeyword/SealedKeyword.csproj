@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DADADF21-0A5A-497F-8F63-8F0EE0F3B0F1}</ProjectGuid>
+    <ProjectGuid>{C314A170-6277-4E21-AF45-4B2F82BE5BEB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Readonly_Versus_Const</RootNamespace>
-    <AssemblyName>Readonly_Versus_Const</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>SealedKeyword</RootNamespace>
+    <AssemblyName>SealedKeyword</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReadonlyField.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

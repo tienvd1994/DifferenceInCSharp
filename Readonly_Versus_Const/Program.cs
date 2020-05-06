@@ -21,6 +21,10 @@ namespace Readonly_Versus_Const
              */
 
             // TODO: for example.
+            ReadonlyField ReadonlyField = new ReadonlyField
+            {
+                MyProperty = 100
+            };
         }
     }
 }

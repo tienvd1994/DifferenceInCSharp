@@ -20,7 +20,7 @@ namespace ValueType_Versus_ReferenceType
              * - Can not contain the value null.
              * 
              * Reference type:
-             * - data type: String, Class, Delegates, Array, Interface, Object.
+             * - data type: String, Class, Delegates, Array, Interface, Object, Dynamic.
              * - Stored on heap.
              * - Contains reference to a value(in stack).
              * - Can contain the value null.

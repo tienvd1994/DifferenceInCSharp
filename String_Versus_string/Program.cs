@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 /// <summary>
 /// string is alias for the String class in .NET framework. In fact, every C# types has an equivalent in .NET. As another example, short and int in C# map to Int16 and Int32 in .NET.

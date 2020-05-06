@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DADADF21-0A5A-497F-8F63-8F0EE0F3B0F1}</ProjectGuid>
+    <ProjectGuid>{8539D983-5D5C-4FB9-982D-2B632CC611DC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Readonly_Versus_Const</RootNamespace>
-    <AssemblyName>Readonly_Versus_Const</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClassSample.cs" />
+    <Compile Include="DeriveClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReadonlyField.cs" />
+    <Compile Include="StructKeyword.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
