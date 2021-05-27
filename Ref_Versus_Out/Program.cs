@@ -15,7 +15,7 @@ namespace Ref_Versus_Out
     {
         static void Main(string[] args)
         {
-            int test;
+            int test = 0;
             int period; // Used as out parameter.
 
             TestOut(20, out period);

@@ -20,7 +20,7 @@ namespace Constructors
 
             PrivateConstructor user1 = new PrivateConstructor("Suresh Dasari", "Hyderabad");
 
-            Console.WriteLine(PrivateConstructor.name + ", " + PrivateConstructor.location);
+            // Console.WriteLine(PrivateConstructor.name + ", " + PrivateConstructor.location);
 
             Console.WriteLine("\nPress Enter Key to Exit..");
 
