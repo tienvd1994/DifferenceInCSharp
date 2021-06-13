@@ -10,6 +10,8 @@ namespace StaticConstructor
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(SimpleClass.baseline);
+            Console.ReadLine();
         }
     }
 
