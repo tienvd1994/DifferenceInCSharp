@@ -21,16 +21,13 @@ namespace Indexers
             }
         }
     }
-
+    
     public class Company
     {
         List<Employee> listEmployees;
 
         public Company()
         {
-            // Replace square brackets with angular brackets
-            var listEmployees = new List<Employee>();
-
             listEmployees.Add(new Employee
             { EmployeeId = 1, Name = "Mike", Gender = "Male" });
             listEmployees.Add(new Employee
