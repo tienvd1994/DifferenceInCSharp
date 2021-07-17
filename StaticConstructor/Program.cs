@@ -14,6 +14,4 @@ namespace StaticConstructor
             Console.ReadLine();
         }
     }
-
-
 }
