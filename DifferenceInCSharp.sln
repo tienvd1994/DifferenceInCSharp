@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_Versus_string", "String_Versus_string\String_Versus_string.csproj", "{984D9143-3263-4AC6-974B-CFE02D6D0E70}"
 EndProject
@@ -41,23 +41,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "Extensio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterators", "Iterators\Iterators.csproj", "{6F8D0A71-8E27-48EE-A75E-F2F9C8DA778E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerableIEnumerator", "IEnumerableIEnumerator\IEnumerableIEnumerator.csproj", "{14E1EBE1-8A5B-43B2-9A97-91F67CEC8185}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEnumerableIEnumerator", "IEnumerableIEnumerator\IEnumerableIEnumerator.csproj", "{14E1EBE1-8A5B-43B2-9A97-91F67CEC8185}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerableGeneric", "IEnumerableGeneric\IEnumerableGeneric.csproj", "{D9F3D6CC-918E-4078-9F74-7D86E72F690B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEnumerableGeneric", "IEnumerableGeneric\IEnumerableGeneric.csproj", "{D9F3D6CC-918E-4078-9F74-7D86E72F690B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IListExample", "IListExample\IListExample.csproj", "{03CE7C6B-0C9F-4E63-9577-6693659E49DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IListExample", "IListExample\IListExample.csproj", "{03CE7C6B-0C9F-4E63-9577-6693659E49DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICollectionGeneric", "ICollectionGeneric\ICollectionGeneric.csproj", "{A54C52A0-8202-41E8-B949-EDB0CC4C4291}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ICollectionGeneric", "ICollectionGeneric\ICollectionGeneric.csproj", "{A54C52A0-8202-41E8-B949-EDB0CC4C4291}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List_Sample", "List_Sample\List_Sample.csproj", "{FA5331DD-835E-4628-8D4C-8992D7EB8EF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List_Sample", "List_Sample\List_Sample.csproj", "{FA5331DD-835E-4628-8D4C-8992D7EB8EF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertySample", "PropertySample\PropertySample.csproj", "{2B26932F-4F09-4187-A724-4BDEF609B539}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertySample", "PropertySample\PropertySample.csproj", "{2B26932F-4F09-4187-A724-4BDEF609B539}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldSample", "FieldSample\FieldSample.csproj", "{CD32C1E2-72D1-423B-8CEA-32826CD9A982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FieldSample", "FieldSample\FieldSample.csproj", "{CD32C1E2-72D1-423B-8CEA-32826CD9A982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstantSample", "ConstantSample\ConstantSample.csproj", "{D75F6A21-71AF-42AF-8383-C1E09D8320D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstantSample", "ConstantSample\ConstantSample.csproj", "{D75F6A21-71AF-42AF-8383-C1E09D8320D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructSample", "StructSample\StructSample.csproj", "{60554237-8E95-4571-AB71-C49543E9EDFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructSample", "StructSample\StructSample.csproj", "{60554237-8E95-4571-AB71-C49543E9EDFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiersSample", "AccessModifiersSample\AccessModifiersSample.csproj", "{4B51A76E-88C1-41BB-9019-3C4ABE6AA80D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assembly1", "Assembly1\Assembly1.csproj", "{2B871555-908B-40A6-9FA7-452CF0059F4B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boxing_Unboxing", "Boxing_Unboxing\Boxing_Unboxing.csproj", "{47586A74-CFFB-47DE-B120-B6DBB2402925}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +183,18 @@ Global
 		{60554237-8E95-4571-AB71-C49543E9EDFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60554237-8E95-4571-AB71-C49543E9EDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60554237-8E95-4571-AB71-C49543E9EDFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B51A76E-88C1-41BB-9019-3C4ABE6AA80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B51A76E-88C1-41BB-9019-3C4ABE6AA80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B51A76E-88C1-41BB-9019-3C4ABE6AA80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B51A76E-88C1-41BB-9019-3C4ABE6AA80D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B871555-908B-40A6-9FA7-452CF0059F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B871555-908B-40A6-9FA7-452CF0059F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B871555-908B-40A6-9FA7-452CF0059F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B871555-908B-40A6-9FA7-452CF0059F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47586A74-CFFB-47DE-B120-B6DBB2402925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47586A74-CFFB-47DE-B120-B6DBB2402925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47586A74-CFFB-47DE-B120-B6DBB2402925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47586A74-CFFB-47DE-B120-B6DBB2402925}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

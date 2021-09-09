@@ -22,12 +22,17 @@ namespace Generic_Sample
             // ProcessItems<int>(arr);
             // ProcessItems(list);
 
-            var sampleClass = new SampleClass<int>();
-            
-            decimal a = 1;
-            decimal b = 2;
-            
-            sampleClass.Swap<decimal>(ref a, ref b);
+            //var sampleClass = new SampleClass<int>();
+
+            //decimal a = 1;
+            //decimal b = 2;
+
+            //sampleClass.Swap<decimal>(ref a, ref b);
+
+            // typeof and unbound generic type.
+            var typeOfAndUnbound = new TypeOfAndUnbound();
+
+            Console.ReadLine();
         }
 
         #region Generic method
