@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cotravariance.cs" />
+    <Compile Include="Covariance.cs" />
     <Compile Include="DefaultGenericValue.cs" />
     <Compile Include="GenericConstraint.cs" />
     <Compile Include="GenericInterfaces.cs" />

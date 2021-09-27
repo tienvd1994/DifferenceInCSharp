@@ -32,6 +32,12 @@ namespace Generic_Sample
             // typeof and unbound generic type.
             var typeOfAndUnbound = new TypeOfAndUnbound();
 
+            // Static data.
+            Console.WriteLine(++Bob<int>.Count);
+            Console.WriteLine(++Bob<int>.Count);
+            Console.WriteLine(++Bob<string>.Count);
+            Console.WriteLine(++Bob<object>.Count);
+
             Console.ReadLine();
         }
 
